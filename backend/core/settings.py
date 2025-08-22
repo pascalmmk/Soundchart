@@ -51,9 +51,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "authn",
-    "music", 
-    "users",
+    "rest_framework",
+    "corsheaders",
+    "users", "authn", "music", "analytics", "ingest",
 ]
 
 MIDDLEWARE = [
